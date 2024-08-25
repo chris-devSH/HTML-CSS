@@ -1,0 +1,29 @@
+@import "UTF-8";
+
+body {background-image: linear-gradient(#ffffff, #c1d3f5, #93b1eb);}
+
+main{
+    background-color: azure;
+    margin:  15px 150px 15px 150px;
+    width: 600px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px hsla(220, 23%, 23%, 0.76);
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom:  50px;
+}
+h2 {
+    color: rgb(3, 4, 78);
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,62 @@
+@import "UTF-8";
+
+* {margin: 0px;
+padding: 0px;}
+
+body{
+    background-color: aqua;
+}
+
+header {
+    background-color: blue;
+    height: 100px;
+
+}
+
+div {
+ background-color: rgb(255, 0, 106);
+}
+
+nav {
+    background-color: blue;
+}
+
+
+nav ul{
+    background-color: brown;
+}
+
+main {
+    background-color: aquamarine;
+    padding: 10px;
+    ;
+
+    
+}
+
+main article{
+    display: block;
+    background-color: blueviolet;
+    
+}
+main div{ /*esta configuração é o layout responsivo da div, lembrando que temos que colocar um max e min quando se tratar de layout resposivo*/
+    background-color: bisque;
+    max-width: 500px;
+    min-width: 150px;
+    height: 300px;
+    margin: 0px 0px 0px 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+main section{
+    width: 200px;
+    height: 200px;
+    background-color: brown; /**/
+    display: inline-block;
+    vertical-align: top;
+}
+
+div h1 {
+    box-shadow: 0px 0px 0px 0px black;
+}

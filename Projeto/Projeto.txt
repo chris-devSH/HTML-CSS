@@ -1,0 +1,7 @@
+Passos
+
+layout responsivo para funcionar em outros dispositivos
+
+organização do código
+
+escolher o tipo de letra

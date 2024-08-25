@@ -1,0 +1,124 @@
+@import "UTF-8";
+
+body {
+    background-image:linear-gradient(to right, #FFFFFF, #c1d3f5, #93b1eb);
+ 
+}
+
+main {
+    background-color: white;
+    box-shadow: 5px 5px 15px rgb(0, 67, 138);
+    width: 800px;
+    padding: 10px;
+    margin: 2em 5em 2em 5em;
+    border-radius: 10px;
+    height: 100%;
+}
+
+h1 {
+    color: rgb(0, 22, 46);
+    text-shadow:  rgb(0, 22, 46);
+    
+}
+
+h1#principal{
+    background-color: aquamarine;
+    border-radius: 10px;
+    text-align: center;
+    color: #9c0404;
+    margin-bottom: 50px;
+}
+
+h2{
+    color: black;
+    height: 30px;
+    
+}
+
+.basico{
+    background-color: aqua;
+    border-radius: 5px;
+    width: 250px;
+    color: black;
+    margin-bottom: 20px;
+}
+.intermediario{
+    background-color: aqua;
+    border-radius: 5px;
+    width: 250px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.avancado{
+    background-color: aqua;
+    border-radius: 5px;
+    width: 300px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+p{
+    text-align: justify;
+    display: none;
+    margin-bottom: 30px;
+}
+
+ .basico2 > .basico:hover{ 
+    color: rgb(241, 2, 2);
+
+}
+
+.basico2:hover > p {
+    display: block;
+    color: rgb(241, 2, 2);
+}
+
+.intermediario2 > .intermediario:hover{ 
+    color: rgb(241, 2, 2);
+
+}
+
+.intermediario2:hover > p {
+    display: block;
+    color: rgb(241, 2, 2);
+}
+
+.avancado2 > .avancado:hover{ 
+    color: rgb(241, 2, 2);
+
+}
+
+.avancado2:hover > p {
+    display: block;
+    color: rgb(241, 2, 2);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(241, 2, 2);
+}
+
+
+.imagens{
+    display: inline-block;
+    margin-left: 125px;
+}
+
+
+img {
+    margin: 25px;
+    width: 25px;
+    height: 25px;
+}
+
+
+.avancado:active{
+    color: rgb(253, 253, 253);
+    background-color: #f00000;
+    
+}

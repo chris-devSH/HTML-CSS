@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com midias HTML5</title>
+</head>
+<body>
+    <h1>Trabalhando com imagens</h1>
+    <p>Tente abrir a imagem em dispositivos diferentes</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Trabalhando com audios</h1>
+    <p>Podemos adicionar um audio a nossa pagina HTML</p>
+    <audio src="Media/Chasing - NEFFEX.mp3" controls autoplay></audio>
+
+  <p> Ou podemos adicionar com a tag audio separada, é importante nos atentarmos pois em alguns navegadores o audio não carrega, então seguindo a mesma lógico do Source, adicionamos separadamente</p>
+
+  <audio>
+    <source src="" type="">
+  </audio>
+</body>
+</html>
