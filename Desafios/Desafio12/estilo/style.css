@@ -27,7 +27,6 @@ header h1 {
 
 header p {
     padding-bottom: 50px;
-    padding-top: 10px;
 }
 
 section{
@@ -35,6 +34,9 @@ section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     /*Aqui eu errei ao fazer sozinho, vh é condizendo com o tamanho da viewport, indenpente do equipamento, ele da um efeito paralax usando o espaçamento interno, padding*/
+    line-height: 2em;
+    /*lembrar do espaçamento entra linhas e anotar no caderno*/
+    padding-left: 30px;
 }
 
 
@@ -46,6 +48,11 @@ section.imagem{
     
     background-color: rgb(37, 37, 37);
     color: white;
+}
+
+section.imagem > p{
+    width: 400px;
+    background-color: black;
 }
 
 a {
