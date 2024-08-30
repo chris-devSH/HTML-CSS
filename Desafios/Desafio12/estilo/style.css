@@ -1,0 +1,67 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{ 
+    min-width: 100vh;
+    background-color: darkgrey;
+
+}
+
+header{
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    color: white;  
+    text-align: center; 
+    
+}
+
+header h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    text-align: center; 
+}
+
+header p {
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+section{
+
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    /*Aqui eu errei ao fazer sozinho, vh é condizendo com o tamanho da viewport, indenpente do equipamento, ele da um efeito paralax usando o espaçamento interno, padding*/
+}
+
+
+section.normal{
+    background-color: white;
+}
+
+section.imagem{
+    
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
