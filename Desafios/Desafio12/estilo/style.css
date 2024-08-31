@@ -79,6 +79,7 @@ section#fundo01 {
     box-shadow: inset 0px 0px 13px 5px black;
     background-attachment: fixed;
     font-weight: bold;
+    min-width: 300px;
 
 }
 
