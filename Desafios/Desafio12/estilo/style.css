@@ -74,12 +74,13 @@ section.imagem > p{
 
 section#fundo01 {
     background-image: url(../imagens/background001.jpg);
-    background-position: left center;
+    
     background-size: cover;
     box-shadow: inset 0px 0px 13px 5px black;
     background-attachment: fixed;
     font-weight: bold;
-    min-width: 300px;
+    background-position: right center;
+   
 
 }
 
@@ -90,7 +91,7 @@ section#fundo02 {
     box-shadow: inset 0px 0px 13px 5px rgba(0, 0, 0, 0.397);
     background-attachment: fixed;
     font-weight: bold;
-
+    background-position: right center;
     
 }
 
