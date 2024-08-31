@@ -1,4 +1,7 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -17,12 +20,14 @@ header{
     color: white;  
     text-align: center; 
     
+    
 }
 
 header h1 {
     padding-top: 50px;
     font-variant: small-caps;
     text-align: center; 
+    font-size: 10vh;
 }
 
 header p {
@@ -30,29 +35,62 @@ header p {
 }
 
 section{
-
+    
+    font-size: 2.5vw;
+    
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
     padding-top: 10vh;
     padding-bottom: 10vh;
     /*Aqui eu errei ao fazer sozinho, vh é condizendo com o tamanho da viewport, indenpente do equipamento, ele da um efeito paralax usando o espaçamento interno, padding*/
     line-height: 2em;
     /*lembrar do espaçamento entra linhas e anotar no caderno*/
-    padding-left: 30px;
+    padding-left: 40px;
 }
 
 
 section.normal{
     background-color: white;
+    padding-left: 60px;
 }
 
 section.imagem{
     
-    background-color: rgb(37, 37, 37);
+    background-color: rgba(37, 37, 37, 0.479);
     color: white;
 }
 
 section.imagem > p{
-    width: 400px;
-    background-color: black;
+    display: inline-block;
+    background-color: rgba(51, 51, 51, 0.322);
+    padding: 25px;
+    box-shadow: 0px 0px 1px 0px black;
+    border-radius: 10px;
+    
+   
+
+}
+
+section#fundo01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: left center;
+    background-size: cover;
+    box-shadow: inset 0px 0px 13px 5px black;
+    background-attachment: fixed;
+    font-weight: bold;
+
+}
+
+section#fundo02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: left center;
+    background-size: cover;
+    box-shadow: inset 0px 0px 13px 5px rgba(0, 0, 0, 0.397);
+    background-attachment: fixed;
+    font-weight: bold;
+
+    
 }
 
 a {
@@ -71,4 +109,5 @@ footer{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 2.5vh;
 }
