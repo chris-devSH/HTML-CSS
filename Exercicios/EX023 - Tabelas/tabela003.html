@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colgroup</title>
+
+    <style>
+
+        table{
+            height: 200px;
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            border: 1px solid black;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        tr th{border: 1px solid black;
+        }
+
+        tr td{border: 1px solid black;
+              }
+            
+        tr.title{
+            background-color: rgb(105, 105, 105);
+            color: white;
+            font-weight: bold;
+        }
+
+        col.cnome {
+        background-color: aqua;
+    }
+
+    col.cgroup{
+        background-color: red;
+    }
+    </style>
+</head>
+<body>
+
+    <h1>Exercício de tabela</h1>
+    
+    <table>
+
+        <colgroup>
+            <col class="cnome">
+            <col class="cgroup" span="2">
+            <col class="cprofissão">
+      </colgroup>
+
+        <caption>Cadastro</caption>
+
+        <tr >
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Ana maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>Marcio Andre</td>
+            <td>M</td>
+            <td>29</td>
+            <td>Advogado</td>
+        </tr>
+
+
+        <tr>
+            <td>Luciana</td>
+            <td>F</td>
+            <td>27</td>
+            <td>Psicóloga</td>
+        </tr>
+
+        <tr>
+            <td>Paula Silva</td>
+            <td>F</td>
+            <td>23</td>
+            <td>Desenvolvedora</td>
+        </tr>
+
+        <tr>
+            <td>Fernando Torres</td>
+            <td>M</td>
+            <td>33</td>
+            <td>Médico</td>
+        </tr>
+
+        <tr>
+            <td>Igor Ferreira</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Designer</td>
+        </tr>
+
+        <tr>
+            <td>Marcela Barros</td>
+            <td>F</td>
+            <td>29</td>
+            <td>Estilista</td>
+        </tr>
+    </table>
+</body>
+</html>

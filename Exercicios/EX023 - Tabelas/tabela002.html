@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com tabelas - semântica</title>
+    <style>
+
+
+        body>h1 {
+            margin: auto;
+            height: 50px;
+            width: 300px;
+            text-align: center;}
+        table{
+            margin: auto;
+            height: 50vh;
+        
+            width: 75vh;
+            min-height: 45vh;
+            text-align: center;
+            border: 2px solid rgb(165, 157, 157);
+            padding: 5px;
+        }
+
+        caption{
+            background-color: darkgrey;
+            font-size: 4vh;
+            margin-top: 50px;
+            padding: 10px;
+        }
+
+        
+        td#estado {
+            width: 250px;
+
+        }
+        thead>tr>td{
+            background-color: rgb(165, 157, 157);
+            padding: 5px 10px 5px 10px;
+            font-size: 4vh;
+            box-shadow:  0px 0px 3px 1px rgba(0, 0, 0, 0.342);
+            
+        }
+
+        tbody{
+            margin-top: 20px;
+            
+            
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: darkgrey;
+        }
+         
+        tbody>tr>td{
+            border: 2px solid rgb(165, 157, 157);
+            box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.247);
+            font-size: 3vh;
+            
+        }
+        tfoot td{
+            padding: 5px 10px 5px 10px;
+            font-size: 3vh;
+        }
+        tfoot td#corespecial{
+            border: 2px solid rgb(165, 157, 157);
+            box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.247);
+        }
+    </style>
+</head>
+<body>
+    <h1> Treinamento com tabelas</h1>
+
+    
+    
+    <table>
+        <caption>População Nacional</caption>
+        <thead>
+            <tr>
+                <td id="estado">Estado</td>
+                <td>População</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="number">44 411 238</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="number">20 539 989</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="number">16 055 174</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="number">14 141 626</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="number">11 882 965	</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="number">11 444 380</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td id="corespecial"><strong>97.935.383</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
