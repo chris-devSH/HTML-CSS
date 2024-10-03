@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com formulários</title>
+</head>
+<body>
+    <h1>Trabalhando com formulários</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p><label for="inome">NOME:</label> <input type="text" alt="insira seu nome" name="nome" id="inome" required min="6" size="10" placeholder="insira seu nome" autocomplete="name"></p>
+
+        <p><label for="iemail">E-mail:</label><input type="email" alt="insira seu e-mail" name="email" id="iemail" required size="8" placeholder="Insira seu e-mail" autocomplete="current-password"></p>
+
+        <p><input type="submit" value="Enviar" ></p>
+        <p><input type="reset" value="Limpar"></p>
+    </form>
+</body>
+</html>

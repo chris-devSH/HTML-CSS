@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cor, Range e File</title>
+
+    <style>
+        *{ margin: 0px;
+        padding: 0px;}
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        form{
+            margin: 15px
+        }
+
+        fieldset{
+            border-radius: 5px;
+        }
+
+
+        legend{
+            font-weight: bold;
+            margin: 0px 5px 0px 5px;
+            padding:   0px 5px 0px 5px;;
+        }
+        
+
+        h1{
+            margin: 15px;
+        }
+        div{
+            margin: 15px;
+        }
+
+        .botao{
+            border-radius: 5px;
+            padding: 2px 10px;
+            background-color: rgb(250, 250, 250);
+            font-weight: bold;
+            box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.308);
+            border: 1px solid;
+        }
+        .botao:hover{
+            border-radius: 5px;
+            padding: 2px 10px;
+            background-color: rgb(20, 35, 255);
+            color: white;
+            font-weight: bold;
+            box-shadow: 0 0 5px 0px rgb(0 0 0 / 47%);
+            border: 1px  black;
+        }
+
+        .bordacima{
+            margin-top: 10px;
+        }
+
+       
+    </style>
+
+</head>
+<body>
+    <h1>Exemplo de formulários</h1>
+    
+    
+        <form action="cadastro.php" method="post">
+            <fieldset>
+                <legend> Cor </legend>
+                <div>
+                    <label for="idcor">Cor:</label>
+                    <input type="color" name="cor" id="idcor">
+                </div>
+                <div>
+                    <input type="button" value="Enviar" class="botao">
+                    <input type="reset" value="Limpar" class="botao">
+                </div>
+            </fieldset>
+
+            <fieldset class="bordacima"> 
+                <legend>Range (exemplo com nível de satisfação): </legend> 
+                
+                <div>
+                    <label for="idsatifascao">Nível de satisfação</label>
+                    <input type="range" name="satisfacao" id="idsatifascao" max="10" >
+                </div>
+
+                
+            </fieldset>
+
+            <fieldset class="bordacima">
+                <legend> Selecionar foto</legend>
+                <div>
+                    <label for="idarquivo">Envie sua foto: </label>
+                    <input type="file" name="arquivo" id="idarquivo" >
+                </div>
+            </fieldset>
+        </form>
+   
+</body>
+</html>
